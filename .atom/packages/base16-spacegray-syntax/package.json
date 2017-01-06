@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+        "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1243-1xhfjft"
+    ]
+  ],
+  "_from": "../d-116916-1243-t96psm/package.tgz",
+  "_id": "base16-spacegray-syntax@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/base16-spacegray-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+    "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116916-1243-t96psm/package.tgz",
+  "_shasum": "761d34aab9959d2ff4673ab4af1f60c8102adad5",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1243-t96psm/package.tgz",
+  "_where": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1243-1xhfjft",
+  "bugs": {
+    "url": "https://github.com/jubalm/base16-spacegray-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Base16 theme best for Spacegrey Eighties",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jubalm/base16-spacegray-syntax#readme",
+  "license": "MIT",
+  "name": "base16-spacegray-syntax",
+  "optionalDependencies": {},
+  "readme": "# Atom Base16 Space-gray Syntax\n\nThis atom syntax works really well with [spacegray-eighties-ui](https://github.com/emilyemorehouse/spacegray-eighties-ui)\n\n![Screenshot](http://i.imgur.com/V5HqNdc.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubalm/base16-spacegray-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
+}

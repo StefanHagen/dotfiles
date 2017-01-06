@@ -1,0 +1,20 @@
+"*":
+  core:
+    disabledPackages: [
+      "vim-mode"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "spacegray-eighties-ui"
+      "base16-eighties-dark-syntax"
+    ]
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "793193b4-deab-ebca-61ad-2e00aa17db13"
+  "file-icons":
+    coloured: false
+  welcome:
+    showOnStartup: false

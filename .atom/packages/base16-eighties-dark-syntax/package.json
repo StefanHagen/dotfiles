@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+        "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1227-1mt40s"
+    ]
+  ],
+  "_from": "../d-116916-1227-t68kaz/package.tgz",
+  "_id": "base16-eighties-dark-syntax@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/base16-eighties-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+    "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116916-1227-t68kaz/package.tgz",
+  "_shasum": "94fc03f45f6f3ef963bf33dcb3397ffa4eccea72",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1227-t68kaz/package.tgz",
+  "_where": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1227-1mt40s",
+  "bugs": {
+    "url": "https://github.com/josler/atom-base16-eighties-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Dark theme, based on base16-eighties",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/josler/atom-base16-eighties-syntax#readme",
+  "license": "MIT",
+  "name": "base16-eighties-dark-syntax",
+  "optionalDependencies": {},
+  "readme": "# base16-eighties-dark-syntax theme\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josler/atom-base16-eighties-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

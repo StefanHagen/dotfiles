@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+        "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1086-1o6s12w"
+    ]
+  ],
+  "_from": "../d-116916-1086-1g07pzq/package.tgz",
+  "_id": "spacegray-dark-neue-ui@1.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/spacegray-dark-neue-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+    "spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116916-1086-1g07pzq/package.tgz",
+  "_shasum": "ac5c7e5fa0e6cfc056621db330c38c3d2659914e",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/d-116916-1086-1g07pzq/package.tgz",
+  "_where": "/private/var/folders/m7/k372_x214gd6zbjk6hj5nbg40000gn/T/apm-install-dir-116916-1086-1o6s12w",
+  "bugs": {
+    "url": "https://github.com/nathanbuchar/atom-spacegray-dark-ui/issues"
+  },
+  "dependencies": {},
+  "description": "A better port of the Spacegray Sublime theme by Gadzhi Kharkharov.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nathanbuchar/atom-spacegray-dark-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "space",
+    "spacegray",
+    "dark",
+    "clean"
+  ],
+  "license": "MIT",
+  "name": "spacegray-dark-neue-ui",
+  "optionalDependencies": {},
+  "readme": "# Spacegray Dark Neue UI\n\nA better port of the [Spacegray](http://kkga.github.io/spacegray) Sublime theme by Gadzhi Kharkharov. Supports [the new custom title bar](https://github.com/atom/atom/pull/11790) in Atom v1.11.0.\n\n![](https://raw.githubusercontent.com/nathanbuchar/spacegray-dark-ui/master/screenshots/screenshot.png)\n\n\n**Suggested Syntax Themes**\n* [Firewatch Syntax](https://atom.io/themes/firewatch-syntax) (featured above)\n* [Spacegray Dark Neue Syntax](https://atom.io/themes/spacegray-dark-neue-syntax)\n* [Peacocks in Space](https://atom.io/themes/peacocks-in-space-syntax)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbuchar/atom-spacegray-dark-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.6.0"
+}
