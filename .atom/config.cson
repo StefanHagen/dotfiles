@@ -1,20 +1,16 @@
 "*":
   core:
     disabledPackages: [
+      "file-icons"
       "vim-mode"
+      "welcome"
     ]
-    telemetryConsent: "no"
-    themes: [
-      "spacegray-eighties-ui"
-      "base16-eighties-dark-syntax"
-    ]
+    projectHome: "/Users/stefanhagen/Desktop/Git"
+    telemetryConsent: "limited"
   editor:
-    scrollPastEnd: true
-    showIndentGuide: true
-    tabType: "soft"
+    preferredLineLength: 120
   "exception-reporting":
-    userId: "793193b4-deab-ebca-61ad-2e00aa17db13"
-  "file-icons":
-    coloured: false
+    userId: "61508313-76a9-4533-b034-76d0284cccb6"
+  "linter-rubocop": {}
   welcome:
     showOnStartup: false
