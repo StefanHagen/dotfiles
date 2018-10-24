@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+        "spec": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/apm-install-dir-118319-6161-qdypc1.loo54mfgvi"
+    ]
+  ],
+  "_from": "../d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+  "_id": "vue-syntax@2.0.0",
+  "_inCache": true,
+  "_location": "/vue-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+    "spec": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+  "_shasum": "45a8de6cf2963a6dfaa295ae30c85b914dc2ce38",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/d-118319-6161-1pxz039.o0yxy9zfr/package.tgz",
+  "_where": "/private/var/folders/dt/nx_m87yn5hv2mc5r40f2whmm0000gn/T/apm-install-dir-118319-6161-qdypc1.loo54mfgvi",
+  "bugs": {
+    "url": "https://github.com/Joseba84/vue-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax theme for vue projects",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Joseba84/vue-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "vue-syntax",
+  "optionalDependencies": {},
+  "readme": "# vue-syntax theme\n\nSyntax theme for vue projects.\n\n![A screenshot of your theme](https://github.com/Joseba84/vue-syntax/blob/master/vue-syntax-screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseba84/vue-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "2.0.0"
+}
