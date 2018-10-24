@@ -1,11 +1,20 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/stefanhagen/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="dasenigma"
+
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,12 +54,6 @@ ZSH_THEME="dasenigma"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git rake bundle ruby rails sublime brew postgres)
-
 # User configuration
 
 export PATH="/usr/local/var/rbenv/shims:Users/stefan/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -60,7 +63,31 @@ export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git
+  rake
+  bundle
+  ruby
+  rails
+  brew
+  postgres
+)
+
 source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+export PATH="/usr/local/var/rbenv/shims:Users/stefan/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export RBENV_ROOT=/usr/local/var/rbenv
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -76,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -91,17 +118,14 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh/.oh-my-zsh.sh"
 
-# SSH server shortcuts
-alias sshprstaging="ssh -i ~/.ssh/stefanhagen_rsa root@87.255.55.200"
-
 # Navigational aliases
 alias root="cd ~"
-alias github="cd ~/Desktop/Github"
-alias workbench="cd ~/Desktop/Workbench"
-alias questionmark="cd ~/Desktop/Questionmark"
+alias github="cd ~/Desktop/Git"
+alias frits="cd ~/Desktop/Frits"
 
 # Git aliases
 alias gitlog="glol"
+# alias gitdmerged="git branch --merged | egrep -v "(^\*|master|develop)" | xargs git branch -d"
 
 # Rails
 alias model="rails g model"
@@ -112,27 +136,35 @@ alias destroy="rails destroy"
 alias rs="rails server"
 alias rc="rails console"
 
+# Development
+alias puma="bundle exec puma -C config/puma.rb"
+
 # Rake
 alias rdm="bundle exec rake db:migrate"
 alias rdc="bundle exec rake db:create"
 alias rdca="bundle exec rake db:create:all"
 alias rds="bundle exec rake db:seed"
 
+# Postgres
+alias pstgrs="pg_ctl -D /usr/local/var/postgres start"
+
+alias sshfritsbox="ssh frits-box@82.196.2.249"
+
 # OSX
 alias show="defaults write com.apple.Finder AppleShowAllFiles TRUE && killall Finder"
 alias hide="defaults write com.apple.Finder AppleShowAllFiles OFF && killall Finder"
 
 function grepv(){
-	vim $(grep -irl "$*" .)
+        vim $(grep -irl "$*" .)
 }
 
 # # Function to display available color spectrum
 function spectrum_ls() {
-	for code in {000..255}; do
-		print -P -- "$code: %{$FG[$code]%}$ZSH_SPECTRUM_TEXT%{$reset_color%}"
- 	done
+        for code in {000..255}; do
+                print -P -- "$code: %{$FG[$code]%}$ZSH_SPECTRUM_TEXT%{$reset_color%}"
+        done
  }
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
-export NVM_DIR="/Users/stefanhagen/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH=/usr/local/opt/elasticsearch@2.4/bin:/usr/local/bin:/usr/local/sbin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+source $HOME/.zshenv
+export PATH="/usr/local/opt/php@7.1/bin:$PATH"
+export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
